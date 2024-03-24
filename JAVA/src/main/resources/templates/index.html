@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armazém</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <section class="imagem" id="img1">
+        <h1>ARMAZEM</h1>
+        <h2>O armazém de sua confiança!</h2>
+    </section>
+
+    <section class="apresentacao">
+        <h2>Bem-vindo ao Armazém!</h2>
+        <p>Além de nossa variedade de produtos, estamos comprometidos em manter nossos padrões de qualidade impecáveis. Trabalhamos em estreita colaboração com fornecedores confiáveis para garantir que cada produto em nossas prateleiras atenda aos mais altos padrões de frescor, segurança e sustentabilidade.</p>
+        <p>No Armazém, também nos esforçamos para oferecer uma experiência de compra moderna e conveniente. Com nossa equipe experiente e tecnologia de ponta, estamos sempre encontrando novas maneiras de tornar suas compras mais fáceis, eficientes e agradáveis.</p>
+        <a th:href="@{/listar}" class="btnProdutos btn btn-outline-primary">Acesso aos produtos</a>
+    </section>
+</body>
+</html>

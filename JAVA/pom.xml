@@ -8,11 +8,11 @@
 		<version>3.2.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>senacPI</groupId>
+	<groupId>com.silvalves</groupId>
 	<artifactId>armazem</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>armazem</name>
-	<description>Projeto de simples de sistema para um armazém</description>
+	<description>Projeto de exemplo de sistema para um armazém</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
